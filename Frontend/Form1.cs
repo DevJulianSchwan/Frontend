@@ -34,10 +34,7 @@ namespace Frontend
                 CheckFileExists = true,
                 CheckPathExists = true,
 
-                //DefaultExt = "txt",
-                //Filter = "txt files (*.txt)|*.txt",
-                //FilterIndex = 2,
-                //RestoreDirectory = true,
+//du penis
 
                 ReadOnlyChecked = true,
                 ShowReadOnly = true
