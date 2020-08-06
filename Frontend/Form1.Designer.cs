@@ -37,6 +37,7 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.ImageLocation = "";
             this.pictureBox1.Location = new System.Drawing.Point(335, 52);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(1650, 1102);
@@ -61,12 +62,13 @@
             this.button2.TabIndex = 2;
             this.button2.Text = "Choose Image";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
             this.button3.Location = new System.Drawing.Point(41, 250);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(225, 58);
+            this.button3.Size = new System.Drawing.Size(225, 87);
             this.button3.TabIndex = 3;
             this.button3.Text = "Select Flowers";
             this.button3.UseVisualStyleBackColor = true;
